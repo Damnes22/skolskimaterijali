@@ -1,0 +1,30 @@
+# .gitignore — Školski Materijali
+
+# ============================================================
+# SIGURNOST — Nikad ne commit-ovati!
+# ============================================================
+config.local.php          # Sadrži lozinku baze podataka!
+
+# ============================================================
+# Uploadovani fajlovi korisnika (ne trebaju biti u git-u)
+# ============================================================
+uploads/
+/uploads/
+
+# ============================================================
+# PHP/Editor privremeni fajlovi
+# ============================================================
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+~*
+
+# ============================================================
+# Node (ako se ikad doda frontend build)
+# ============================================================
+node_modules/
